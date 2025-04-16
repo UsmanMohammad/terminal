@@ -1,6 +1,6 @@
 mkdir c:\github
 winget install --id=Git.Git -e --accept-package-agreements --accept-source-agreements
-winget install --id=Microsoft.VisualStudioCode -e  
+winget install Microsoft.VisualStudioCode -e --override "/verysilent /suppressmsgboxes /mergetasks='!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath'"
 winget install --id=AgileBits.1Password -e
 winget install --id=7zip.7zip -e
 winget install --id=Twilio.Authy -e
